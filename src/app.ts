@@ -4,7 +4,7 @@ import passport from 'passport'
 import passportMiddleware from './middlewares/passport';
 import cors from 'cors';
 import authRoutes from './routes/auth.routes';
-
+import reservRoutes from './routes/reservation.routes'
 import specialRoutes from './routes/special.routes';
 
 const app = express();
